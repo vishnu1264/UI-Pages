@@ -1,0 +1,91 @@
+*{
+    margin: 0px;
+}
+.horizontalmenu{
+    width: 100%;
+    height: 50px;
+    margin:auto;
+    display:flex ;
+    align-items: flex-start;
+}
+.lefticon{
+    width: 4%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: center;
+    box-shadow:2px 2px rgb(214, 203, 203);
+}
+.icon{
+    height: 30px;
+    
+}
+.profile{
+    width: 95.8%;
+    height: 50px;
+    background-color: rgb(11, 11, 168);
+    box-shadow:2px 2px 2px 2px rgb(194, 185, 185);
+}
+.left{
+    width: 15%;
+    height: 50px;
+    float: left;
+    display: flex;
+    align-items: flex-start;
+    align-items: center;
+}
+.right{
+    width: 24%;
+    height: 50px;
+    float: right;
+    display: flex;
+    align-items: flex-start;
+    align-items: center;
+}
+.iconstyle{
+    margin: 0px 12px 0px 12px;
+    color: white;
+}
+.iconstyle4{
+    color: white;
+}
+.profilepic, .username, .text, .downarrow , .iconstyle4, .iconstyle:hover{
+    cursor: pointer;
+}
+.text{
+    margin: 0px 7px 0px 12px;
+    color: white;
+}
+.search{
+    width: 178px;
+    background-color: white;
+    border-radius: 10px;
+    display: flex;
+    align-items: flex-start;
+    align-items: center;
+}
+.searchbar{
+    width: 155px;
+    margin: 0px 0px 0px 0px;
+    padding: 5px 0px 5px 5px;
+    border-radius: 10px;
+    border: none;
+    background: none;
+    outline: none;
+}
+.searchbutton{
+    color: black;
+    margin: 2px 0px 0px 0px;
+}
+.profilepic{
+    margin: 0px 10px 0px 12px;
+    height: 25px;
+}
+.username{
+    padding: 0px 5px 0px 0px;
+    color: white;
+}
+.downarrow{
+    color: white;
+}
