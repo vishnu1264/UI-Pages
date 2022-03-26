@@ -1,0 +1,102 @@
+.parent{
+    width: 800px;
+    height: 500px;
+    margin: auto;
+    background: aquamarine;
+}
+*{
+    margin: 0px;
+}
+
+.left{
+    width: 400px;
+    height: 100%;
+    float: left;
+    background-image: url(login.png);
+    background-size: cover;
+}
+a{
+    text-decoration: none;
+}
+
+.text{
+    margin: 65px;
+    /* background-color:white; */
+}
+
+.right{
+    width: 400px;
+    height: 100%;
+    background:white;
+    float:right;
+}
+
+.login{
+    width: 300px;
+    height: 350px;
+    margin: 50px auto;
+    background: white;
+}
+.part1{
+    padding-top: 20px;
+    width:100%;
+    height:70px;
+    background-color:white;
+}
+
+.part2{
+    width:100%;
+    height:175px;
+    background-color:white;
+}
+
+.part3{
+    width: 100%;
+    height:105px;
+    background-color:white;
+}
+.email{
+    width:290px;
+    margin-top: 5px;
+    padding: 6px 0px 6px 6px;
+    margin-bottom: 10px;
+}
+.password{
+    width:290px;
+    margin-top: 5px;
+    padding: 6px 0px 6px 6px;
+    margin-bottom: 25px;
+}
+.remember{
+    float: left;
+    margin-right: 6px;
+}
+.forgot{
+    float:right;
+}
+
+.bottom{
+    text-align: center;
+}
+
+.button1{
+    width: 300px;
+    background-color:#04C35C;
+    margin-top: 10px;
+    height:40px;
+    border:0px;
+    border-radius: 5px;
+    text-emphasis-color: #FFFFFF;
+}
+
+.button2{
+    width: 300px;
+    background-color:#2D3748;
+    margin-top: 10px;
+    height:40px;
+    border:0px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
