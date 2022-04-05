@@ -1,0 +1,100 @@
+*{
+    margin: 0px;
+}
+.wrapper{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content:space-between;
+}
+.sidebar{
+    width: 240px;
+    height: 100%;
+}
+.page-content{
+    width: calc(100% - 241px);
+    max-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+.content-block{
+    height:calc(100vh - 50px);
+    overflow-y:auto;
+    padding-bottom: 50px;
+}
+
+
+
+/* CSS for Vertical Menu (Left side) */
+
+
+
+.sidemenuleft {
+    list-style-type: none;
+    padding-inline-start: 0px;
+    height: calc(100vh - 50px);
+    overflow-y: auto;
+}
+.sidemenu{
+    list-style-type: none;
+    padding-inline-start: 0px;
+}
+.sbtopline{
+    display: flex;
+    width: 100%;
+    height: 50px;
+    margin: 0px 1px 0px 0px;
+    padding: 0px 0px 0px 0px;
+    box-sizing: border-box;
+    background-color: #132f7c;
+}
+.topimage{
+    background-color: #132f7c;
+    margin: 10px 0px 0px 10px;
+    height: 30px;
+}
+.toptext{
+    margin: 12px 0px 0px 10px;
+    padding: 0px 0px 0px 0px;
+    font-family: 'Roboto', sans-serif;
+    font-size:x-large;
+    color: white;
+}
+.hline{
+    border: 1px solid #909090;
+}
+.sidemenuleft li{
+    width:100%;
+    margin: 0px 0px 0px 0px;
+    padding: 5px 0px 5px 0px;
+    display: flex;
+    justify-content: space-between;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+.sbrowleft{
+    width: 180px;
+    display: flex;
+    align-items: center;
+}
+.sidemenuleft li:hover{
+    background-color:#2C72FF;
+    color: white;
+}
+
+.sbimageleft{
+    margin: 12px 0px 10px 10px;
+    height: 19px;
+}
+.sbmenutext{
+    margin: 0px 0px 0px 15px;
+    font-family: 'Roboto', sans-serif;
+}
+.sbimageright{
+    margin: 15px 10px 15px 10px;
+    height: 15px;
+}
+
+.hide-block{
+    display: none;
+}

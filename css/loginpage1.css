@@ -1,85 +1,81 @@
-.parent{
-    width: 800px;
-    height: 500px;
-    margin: auto;
-    background: aquamarine;
-}
 *{
     margin: 0px;
 }
 
-.left{
+.login1parent{
+    width: 800px;
+    height: calc(100vh - 50px);
+    margin: auto;
+}
+
+.login1left{
     width: 400px;
-    height: 100%;
+    height: calc(100vh - 50px);
     float: left;
-    background-image: url(login.png);
-    background-size: cover;
-}
-a{
-    text-decoration: none;
 }
 
-.text{
-    margin: 65px;
-    /* background-color:white; */
+.login1leftimage{
+    width: 100%;
+    height: calc(100vh - 50px);
 }
 
-.right{
+.login1right{
     width: 400px;
     height: 100%;
     background:white;
     float:right;
 }
 
-.login{
+.login1st{
     width: 300px;
     height: 350px;
     margin: 50px auto;
     background: white;
 }
-.part1{
+.login1part1{
     padding-top: 20px;
     width:100%;
     height:70px;
     background-color:white;
 }
 
-.part2{
+.login1part2{
     width:100%;
     height:175px;
     background-color:white;
 }
 
-.part3{
+.login1part3{
     width: 100%;
     height:105px;
     background-color:white;
 }
-.email{
+.login1email{
     width:290px;
     margin-top: 5px;
     padding: 6px 0px 6px 6px;
     margin-bottom: 10px;
 }
-.password{
+.login1password{
     width:290px;
     margin-top: 5px;
     padding: 6px 0px 6px 6px;
     margin-bottom: 25px;
 }
-.remember{
+.login1remember{
     float: left;
     margin-right: 6px;
 }
-.forgot{
+.login1forgot{
     float:right;
+    text-decoration: none;
 }
 
-.bottom{
+.login1bottom{
     text-align: center;
 }
 
-.button1{
+.login1button1{
     width: 300px;
     background-color:#04C35C;
     margin-top: 10px;
@@ -89,7 +85,7 @@ a{
     text-emphasis-color: #FFFFFF;
 }
 
-.button2{
+.login1button2{
     width: 300px;
     background-color:#2D3748;
     margin-top: 10px;

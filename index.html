@@ -5,13 +5,19 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/css/dashboard.css">
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="css/horizontalnavigation.css">
+    <link rel="stylesheet" href="/css/loginpage1.css">
+    <link rel="stylesheet" href="css/loginpage2.css">
+    <link rel="stylesheet" href="css/signup.css">
+    <link rel="stylesheet" href="css/cards&table.css">
     <link rel="stylesheet" href="/fontawesome/css/all.css">
     <link rel="stylesheet" href="/fontawesome/css/regular.css">
     <link rel="stylesheet" href="/fontawesome/css/fontawesome.css">
     <link rel="stylesheet" href="/fontawesome/css/all.min.css">
     <link rel="stylesheet" href="/fontawesome/css/brands.css">
     <link href="https://fonts.googleapis.com/css2? family=Roboto:wght@300;400;500;700;900" rel="stylesheet">
+    <title>Index</title>
 </head>
 
 <body>
@@ -19,208 +25,381 @@
 
         <div class="sidebar">
 
-            <div class="topline">
+            <div class="sbtopline">
                 <img src="/images/mg-logo.png" alt="" class="topimage">
                 <p class="toptext">Mobigesture</p>
             </div>
 
-            <ul class="sidemenuleft">              
+            <ul class="sidemenuleft">
 
                 <li>
-                    <div class="rowleft">
-                        <span class="imageleft">
+                    <div class="sbrowleft">
+                        <span class="sbimageleft">
                             <i class="fas fa-snowman"></i>
                         </span>
-                        <p class="menutext">Steve Jection</p>
+                        <p class="sbmenutext">Vishnu</p>
                     </div>
                 </li>
 
                 <li>
-                    <div class="rowleft">
-                        <span class="imageleft">
+                    <div class="sbrowleft" onclick="accessLogin1()">
+                        <span class="sbimageleft">
                             <i class="fas fa-tachometer-alt"></i>
                         </span>
-                        <p class="menutext">Dashboard</p>
+                        <p class="sbmenutext">Login Page - 1</p>
                     </div>
-                    <span class="fas fa-chevron-right imageright"></span>
+                    <span class="fas fa-chevron-right sbimageright"></span>
                 </li>
 
                 <li>
-                    <div class="rowleft">
-                        <span class="imageleft">
+                    <div class="sbrowleft" onclick="accessLogin2()">
+                        <span class="sbimageleft">
                             <i class="fas fa-cart-shopping"></i>
                         </span>
-                        <p class="menutext">Ecommerce</p>
+                        <p class="sbmenutext">Login Page - 2</p>
                     </div>
 
-                    <span class="fas fa-chevron-right imageright"></span>
+                    <span class="fas fa-chevron-right sbimageright"></span>
                 </li>
 
                 <li>
-                    <div class="rowleft">
-                        <span class="imageleft">
+                    <div class="sbrowleft" onclick="accessSignup()">
+                        <span class="sbimageleft">
                             <i class="fas fa-fill-drip"></i>
                         </span>
-                        <p class="menutext">Ui Elements</p>
+                        <p class="sbmenutext">Sign-Up Form</p>
                     </div>
 
-                    <span class="fas fa-chevron-right imageright"></span>
+                    <span class="fas fa-chevron-right sbimageright"></span>
                 </li>
 
                 <li>
-                    <div class="rowleft">
-                        <span class="imageleft">
+                    <div class="sbrowleft" onclick="accessDashboard()">
+                        <span class="sbimageleft">
                             <i class="fas fa-cart-shopping"></i>
                         </span>
-                        <p class="menutext">Sample Pages</p>
+                        <p class="sbmenutext">Dashboard</p>
                     </div>
 
-                    <span class="fas fa-chevron-right imageright"></span>
+                    <span class="fas fa-chevron-right sbimageright"></span>
                 </li>
-
-                <li>
-                    <div class="rowleft">
-                        <span class="imageleft">
-                            <i class="fas fa-th"></i>
-                        </span>
-                        <p class="menutext">Apps</p>
-                    </div>
-
-                    <span class="fas fa-chevron-right imageright"></span>
-                </li>
-
-                <li  >
-                    <div class="rowleft">
-                        <span class="imageleft">
-                            <i class="fas fa-sliders-h"></i>
-                        </span>
-                        <p class="menutext">Sidebar Type</p>
-                    </div>
-
-                    <span class="fas fa-chevron-right imageright"></span>
-                </li>
-
-                <li>
-                    <div class="rowleft">
-                        <span class="imageleft">
-                            <i class="fas fa-file-lines"></i>
-                        </span>
-                        <p class="menutext">Page Layouts</p>
-                    </div>
-
-                    <span class="fas fa-chevron-right imageright"></span>
-                </li>
-
-                <hr class="hline">
-
-                <li>
-                    <div class="rowleft">
-                        <span class="imageleft">
-                            <i class="fas fa-snowman"></i>
-                        </span>
-                        <p class="menutext">Steve Jection</p>
-                    </div>
-
-                    <span class="fas fa-chevron-right imageright"></span>
-                </li>
-
-                <li>
-                    <div class="rowleft">
-                        <span class="imageleft">
-                            <i class="fas fa-tachometer-alt"></i>
-                        </span>
-                        <p class="menutext">Dashboard</p>
-                    </div>
-                    <span class="fas fa-chevron-right imageright"></span>
-                </li>
-
-                <li>
-                    <div class="rowleft">
-                        <span class="imageleft">
-                            <i class="fas fa-fill-drip"></i>
-                        </span>
-                        <p class="menutext">Ui Elements</p>
-                    </div>
-
-                    <span class="fas fa-chevron-right imageright"></span>
-                </li>
-
-                <li>
-                    <div class="rowleft">
-                        <span class="imageleft">
-                            <i class="fas fa-cart-shopping"></i>
-                        </span>
-                        <p class="menutext">Ecommerce</p>
-                    </div>
-
-                    <span class="fas fa-chevron-right imageright"></span>
-                </li>
-
-                <li>
-                    <div class="rowleft">
-                        <span class="imageleft">
-                            <i class="fas fa-th"></i>
-                        </span>
-                        <p class="menutext">Apps</p>
-                    </div>
-
-                    <span class="fas fa-chevron-right imageright"></span>
-                </li>
-
-                <li>
-                    <div class="rowleft">
-                        <span class="imageleft">
-                            <i class="fas fa-file-lines"></i>
-                        </span>
-                        <p class="menutext">Page Layouts</p>
-                    </div>
-
-                    <span class="fas fa-chevron-right imageright"></span>
-                </li>
-
 
             </ul>
-            
+
         </div>
 
         <div class="page-content">
 
             <div class="horizontalmenu">
 
-                <div class="leftmenu">
-                    <span class="iconstyle">
+                <div class="hnleftmenu">
+                    <span class="hniconstyle">
                         <i class="fas fa-bars "></i>
                     </span>
-                    <span class="iconstyle">
+                    <span class="hniconstyle">
                         <i class="fas fa-envelope"></i>
                     </span>
-                    <span class="iconstyle">
+                    <span class="hniconstyle">
                         <i class="fas fa-check-circle"></i>
                     </span>
-                    <span class="iconstyle">
+                    <span class="hniconstyle">
                         <i class="fas fa-ellipsis-v"></i>
                     </span>
                 </div>
 
-                <div class="rightmenu">
-                    <div class="search">
+                <div class="hnrightmenu">
+                    <div class="hnsearch">
                         <div>
-                            <input type="search" class="searchbar" placeholder="Search...">
+                            <input type="search" class="hnsearchbar" placeholder="Search...">
                         </div>
                         <div>
-                            <a href=""><span class="fas fa-search searchbutton"></span></a>
+                            <a href=""><span class="fas fa-search hnsearchbutton"></span></a>
                         </div>
                     </div>
-                    <img src="/images/profile.png" class="profilepic">
-                    <p class="username">Steve</p>
-                    <span class="downarrow">
+                    <img src="/images/profile.png" class="hnprofilepic">
+                    <p class="hnusername">Vishnu</p>
+                    <span class="hndownarrow">
                         <i class="fas fa-chevron-down"></i>
                     </span>
                 </div>
 
             </div>
 
-            <section class="content-block">
+            <section id="loginPage1" class="hide-block">
+                <div class="login1parent">
+                    <div class="login1left">
+                        <img class="login1leftimage" src="/images/login.png" alt="">
+                    </div>
+
+                    <div class="login1right">
+                        <div class="login1st">
+
+                            <div class="login1part1">
+                                <h4>Welcome back</h4>
+                                <h2>Login to your account</h2>
+                            </div>
+
+                            <div class="login1part2">
+                                <label for="fname">Email</label>
+                                <input class="login1email" type="text" id="fname" placeholder="John.snow@gmail.com">
+
+                                <label for="fname">Password</label>
+                                <input class="login1password" type="text" id="fname" placeholder="*********">
+
+                                <input class="login1remember" type="checkbox" id="html">
+                                <label for="html">Remember me</label>
+
+                                <a class="login1forgot" href="">Forgot password?</a>
+                            </div>
+
+                            <div class="login1part3">
+                                <button class="login1button1" style="color: white;">Login Now</button>
+                                <button class="login1button2" style="color: white;">
+                                    <img src="/images/g1.png" ; style="width:15px; height:15px; margin-right: 6px;">
+                                    Or sign-in with google</button>
+                            </div>
+
+                        </div>
+
+                        <p class="login1bottom">Dont have an account? <a href="">Join free today</a></p>
+                    </div>
+                </div>
+            </section>
+
+            <section id="loginPage2" class="hide-block">
+                <div class="login2outer">
+                    <div class="login2outer1">
+                        <div class="login2parent2">
+                            <div class="login2left2">
+                                <div class="login2image">
+
+                                </div>
+                                <div class="login2text">
+                                    <a href="">Create an account</a>
+                                </div>
+                            </div>
+                            <div class="login2right2">
+
+                                <div class="login2part21">
+                                    <h1>Log In</h1>
+                                </div>
+
+                                <div class="login2part22">
+
+                                    <div class="login2parta">
+                                        <img src="/images/icon.png" class="login2iconclass">
+                                        <input class="login2username" type="text" placeholder="Your Name">
+                                        <img src="/images/calendar.png" alt="" class="login2iconclass">
+                                        <hr style="width: 235px; margin-left: 5px; border:1px solid rgb(156, 151, 151)">
+                                    </div>
+
+                                    <div class="login2partb">
+                                        <img src="/images/icon.png" class="login2iconclass">
+                                        <input class="login2password" type="text" placeholder="Password">
+                                        <img src="/images/calendar.png" alt="" class="login2iconclass">
+                                        <hr style="width: 235px; margin-left: 5px; border:1px solid rgb(156, 151, 151)">
+                                    </div>
+
+                                    <div class="login2partc">
+                                        <input class="login2remember" type="checkbox">
+                                        <label>Remember Me</label>
+                                    </div>
+
+                                    <div class="login2partd">
+                                        <button class="login2button1">Log In</button>
+                                    </div>
+
+                                </div>
+
+                                <div class="login2part23">
+
+                                    <div class="login2part24">
+                                        <a href="">Or login with</a>
+                                    </div>
+
+                                    <div class="login2part25">
+                                        <div class="login2part51">
+                                            <a href="" class="login2icon2link">
+                                                <img src="/images/fb3.png" style="border-radius: 12px;"
+                                                    class="login2icon2">
+                                            </a>
+                                        </div>
+                                        <div class="login2part52">
+                                            <a href="" class="login2icon2link">
+                                                <img src="/images/twtr.png" class="login2icon2">
+                                            </a>
+                                        </div>
+                                        <div class="login2part53">
+                                            <a href="" class="login2icon2link">
+                                                <img src="/images/g+.png" class="login2icon2">
+                                            </a>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="signupForm" class="hide-block">
+                <div class="signuptop">
+                    <h2>Sign Up Form</h2>
+                </div>
+
+                <div class="signupmain">
+
+                    <!-- suprow 1 Name -->
+                    <div class="suprow">
+                        <div class="supleftside">
+                            <p class="supname">Name</p>
+                        </div>
+                        <div class="suprightside">
+                            <input type="text" class="supinputlabel" placeholder="username">
+                        </div>
+                    </div>
+
+                    <!-- suprow 2 Password-->
+                    <div class="suprow">
+                        <div class="supleftside">
+                            <p class="suppassword">Password</p>
+                        </div>
+                        <div class="suprightside">
+                            <input type="text" class="supinputlabel">
+                            <p class="suptextunderpassword">max 16 characters</p>
+                        </div>
+                    </div>
+
+                    <!-- suprow 3 Confirm password-->
+                    <div class="suprow">
+                        <div class="supleftside">
+                            <p class="supconfirmpassword">Confirm Password</p>
+                        </div>
+                        <div class="suprightside">
+                            <input type="text" class="supinputlabel" placeholder="Re-type password">
+                        </div>
+                    </div>
+
+                    <!-- suprow 4 Gender -->
+                    <div class="suprow">
+                        <div class="supleftside">
+                            <p class="supgendertext">Gender</p>
+                        </div>
+                        <div class="suprightside">
+                            <label>
+                                <input class="supgender" type="radio" name="gender" id="" value="male"> Male
+                            </label> &nbsp; &nbsp;
+                            <label>
+                                <input type="radio" name="gender" id="" value="female"> Female
+                            </label>
+                        </div>
+                    </div>
+
+                    <!-- suprow 5 DOB -->
+                    <div class="suprow">
+                        <div class="supleftside">
+                            <p class="supdobtext">DOB</p>
+                        </div>
+                        <div class="suprightside">
+                            <input class="supinputlabel" type="supdate" id="">
+                        </div>
+                    </div>
+
+                    <!-- suprow 6 file upload -->
+                    <div class="suprow">
+                        <div class="supleftside">
+                            <p class="supphototext">Photo</p>
+                        </div>
+                        <div class="suprightside">
+                            <input class="supinputlabel" type="supfile" id="">
+                        </div>
+                    </div>
+
+                    <!-- suprow 7 Address -->
+                    <div class="suprow">
+                        <div class="supleftside">
+                            <p class="supaddresstext">Address</p>
+                        </div>
+                        <div class="suprightside">
+                            <textarea name="address" id="supfilladdress" cols="48" rows="3"></textarea>
+                        </div>
+                    </div>
+
+                    <!-- suprow 8 Country -->
+                    <div class="suprow">
+                        <div class="supleftside">
+                            <p class="supcountrytext">Country</p>
+                        </div>
+                        <div class="suprightside">
+                            <select class="supcountry" name="country" id="">
+                                <option value="INDIA">INDIA</option>
+                                <option value="USA">USA</option>
+                                <option value="JAPAN">JAPAN</option>
+                                <option value="CHINA">CHINA</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <!-- suprow 9 Mobile Number -->
+                    <div class="suprow">
+                        <div class="supleftside">
+                            <p class="supmobile">Mobile Number</p>
+                        </div>
+                        <div class="suprightside">
+                            <input class="supinputlabel" type="text" placeholder="Mobile Number">
+                        </div>
+                    </div>
+
+                    <!-- suprow 10 Email id -->
+                    <div class="suprow">
+                        <div class="supleftside">
+                            <p class="supemail">Email Id</p>
+                        </div>
+                        <div class="suprightside">
+                            <input class="supinputlabel" type="text" placeholder="user@domain.com">
+                        </div>
+                    </div>
+
+                    <!-- suprow 11 Languages -->
+                    <div class="suprow">
+                        <div class="supleftside">
+                            <p class="suplangtext">Languages Known</p>
+                        </div>
+                        <div class="suprightside">
+                            <select name="language" id="language" multiple>
+                                <option value="ENGLSIH">ENGLISH</option>
+                                <option value="HINDI">HINDI</option>
+                                <option value="TELUGU">TELUGU</option>
+                                <option value="OTHERS">OTHERS</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <!-- suprow 12 Checkbox -->
+                    <div class="suprow">
+                        <div class="supleftside">
+                            <p class="supchecktext">Check the box</p>
+                        </div>
+                        <div class="supcheckboxsuprightside">
+                            <div class="supcheckbox">
+                                <input type="checkbox" id="supbox" name="box">
+                            </div>
+                            <div>
+                                <p class="supcheckboxtext">I accept the criteria</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Submit -->
+                    <div>
+                        <button class="supbutton"> Submit </button>
+                    </div>
+
+                </div>
+            </section>
+
+            <section id="dashboard" class="content-block">
                 <div class="cards">
                     <h2 class="headertext">Cards</h2>
 
@@ -503,6 +682,8 @@
         </div>
 
     </section>
+
+    <script src="index.js"></script>
 </body>
 
 </html>

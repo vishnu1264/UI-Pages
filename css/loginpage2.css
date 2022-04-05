@@ -1,7 +1,7 @@
 *{
     margin: 0px;
 }
-.outer{
+.login2outer{
     width:900px;
     height:600px;
     display: flex;
@@ -10,7 +10,7 @@
     background-color:rgb(216, 212, 212);
     margin:auto;
 }
-.outer1{
+.login2outer1{
     width: 850px;
     height: 550px;
     border-radius: 20px;
@@ -19,61 +19,61 @@
     justify-content: center;
     background-color: white;
 }
-.parent{
+.login2parent2{
     width: 800px;
     height: 500px;
     margin: auto;
     background-color:white;
 }
-.left{
+.login2left2{
     width: 400px;
     height:500px;
     background-color: white;
     float:left;
 }
-.image{
+.login2image{
     background-image: url(/images/exe2.png);
     width: 400px;
     height:450px;
     background-size: cover;
 }
-.text{
+.login2text{
     width:400px;
     height:50px;
     display: flex;
     align-items: center;
     justify-content: center;
 }
-.right{
+.login2right2{
     width: 400px;
     height: 500px;
     background-color: white;
     float: right;
 }
-.part1{
+.login2part21{
     padding: 40px 0px 15px 6px;
     width: 394px;
     height: 45px;
     /* background-color:yellow; */
 }
-.part2{
+.login2part22{
     width: 400px;
     height: 300px;
     /* background-color:springgreen; */
 }
-.part3{
+.login2part23{
     width: 400px;
     height: 100px;
     /* background-color: turquoise; */
 }
-.part4{
+.login2part24{
     width:114px;
     height: 33px;
     padding : 67px 0px 0px 6px;
     background-color:white;
     float: left;
 }
-.part5{
+.login2part25{
     width: 280px;
     height: 40px;
     margin: 50px 0px 0px 0px;
@@ -81,89 +81,76 @@
     float: right;
     display: flex;
 }
-.part51{
+.login2part51{
     width: 40px;
     height: 40px;
     margin-top: 5px;
     margin-right: 20px;
 }
-.part52{
+.login2part52{
     width: 40px;
     height: 40px;
     margin-top: 5px;
     margin-right: 20px;
 }
-.part53{
+.login2part53{
     width: 40px;
     height: 40px;
     margin-top: 5px;
 }
-/* .icon1{
-    width: 10px;
-    height: 10px;
-    background-size: cover;
-    float: left;
-    padding:15px 0px 0px 6px;
-} */
-.usericon{
-    width: 50px;
-    height: 50px;
-}
-.icon2link{
+.login2icon2link{
     width: 50px;
     height: 50px;
     display: inline-block;
 }
-.icon2{
+.login2icon2{
     margin: 0px 0px 0px 0px;
     width:40px;
     height: 40px;
 }
-.parta{
+.login2parta{
     width: 400px;
     height: 75px;
     display: ;
     /* background-color: aqua; */
 }
-.username{
+.login2username{
     margin: 45px 0px 0px 0px;
     padding: 5px 0px 5px 0px;
     border: none;
 }
-.iconclass{
+.login2iconclass{
     width: 20px;
     height: 20px;
     margin-top: 10px;
     padding: 10px 0px 0px 6px;
 }
-.usericon{
-    
-}
-.partb{
+
+.login2partb{
     width: 400px;
     height: 75px;
     display: inline-block;
     /* background-color:palegreen; */
 }
-.password{
+.login2password{
     margin: 25px 0px 0px 0px;
     padding: 5px 0px 5px 0px;
     border: none;
 }
-.partc{
+.login2partc{
     width:400px;
     height: 75px;
     /* background-color:peachpuff; */
 }
-.partd{
+.login2partd{
     width: 400px;
     height: 75px;
     /* background-color:chartreuse; */
 }
-.remember{
+.login2remember{
     margin: 5px 0px 0px 6px;
 }
-.button1{
+.login2button1{
     margin: 0px 0px 0px 6px;
     width: 100px;
     height: 50px;
