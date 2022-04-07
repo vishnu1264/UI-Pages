@@ -13,7 +13,7 @@
 }
 .page-content{
     width: calc(100% - 241px);
-    max-height: 100vh;
+    height: 100vh;
     display: flex;
     flex-direction: column;
 }
@@ -46,18 +46,19 @@
     margin: 0px 1px 0px 0px;
     padding: 0px 0px 0px 0px;
     box-sizing: border-box;
+    align-items: center;
     background-color: #132f7c;
 }
 .topimage{
     background-color: #132f7c;
-    margin: 10px 0px 0px 10px;
+    margin: 0px 0px 0px 10px;
     height: 30px;
 }
 .toptext{
-    margin: 12px 0px 0px 10px;
+    margin: 0px 0px 0px 10px;
     padding: 0px 0px 0px 0px;
     font-family: 'Roboto', sans-serif;
-    font-size:x-large;
+    font-size: 20px;
     color: white;
 }
 .hline{

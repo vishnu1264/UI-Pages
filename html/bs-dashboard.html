@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BS-Dashboard</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="/UI-Pages/css/bs-dashboard.css">
+    <link rel="stylesheet" href="/UI-Pages/css/db-responsive.css">
+    <link rel="stylesheet" href="/fontawesome/css/all.css">
+    <link rel="stylesheet" href="/fontawesome/css/regular.css">
+    <link rel="stylesheet" href="/fontawesome/css/fontawesome.css">
+    <link rel="stylesheet" href="/fontawesome/css/all.min.css">
+    <link rel="stylesheet" href="/fontawesome/css/brands.css">
+    <link href="https://fonts.googleapis.com/css2? family=Roboto:wght@300;400;500;700;900" rel="stylesheet">
+</head>
+
+<body>
+
+    <section class="wrapper">
+        <div class="sidebar">
+
+            <div class="topline sidebar-hide">
+                <img src="/images/mg-logo.png" alt="" class="topimage">
+                <p class="toptext">Mobigesture</p>
+            </div>
+
+            <ul class="sidemenuleft">
+
+                <li>
+                    <div class="rowleft sidebar-hide">
+                        <span class="imageleft">
+                            <i class="fas fa-snowman"></i>
+                        </span>
+                        <p class="menutext">Steve Jection</p>
+                    </div>
+                </li>
+
+                <div id="expandme" class="hambur-expand">
+
+                    <li class="expand-row">
+                        <div class="rowleft">
+                            <span class="imageleft">
+                                <i class="fas fa-tachometer-alt"></i>
+                            </span>
+                            <p class="menutext">Dashboard</p>
+                        </div>
+                        <span class="fas fa-chevron-right imageright"></span>
+                    </li>
+
+                    <li class="expand-row">
+                        <div class="rowleft">
+                            <span class="imageleft">
+                                <i class="fas fa-cart-shopping"></i>
+                            </span>
+                            <p class="menutext">Ecommerce</p>
+                        </div>
+
+                        <span class="fas fa-chevron-right imageright"></span>
+                    </li>
+
+                    <li class="expand-row">
+                        <div class="rowleft">
+                            <span class="imageleft">
+                                <i class="fas fa-fill-drip"></i>
+                            </span>
+                            <p class="menutext">Ui Elements</p>
+                        </div>
+
+                        <span class="fas fa-chevron-right imageright"></span>
+                    </li>
+
+                    <li class="expand-row">
+                        <div class="rowleft">
+                            <span class="imageleft">
+                                <i class="fas fa-cart-shopping"></i>
+                            </span>
+                            <p class="menutext">Sample Pages</p>
+                        </div>
+
+                        <span class="fas fa-chevron-right imageright"></span>
+                    </li>
+                </div>
+            </ul>
+
+
+
+        </div>
+
+        <div class="page-content">
+            <div class="horizontalmenu">
+
+                <div class="leftmenu">
+                    <img src="/images/mg-logo.png" alt="" class="horizontalmenu-image">
+                    <span class="iconstyle" data-toggle="collapse" data-target="#expandme">
+                        <i class="fas fa-bars "></i>
+                    </span>
+                    <span class="iconstyle horizontalmenu-hide">
+                        <i class="fas fa-envelope"></i>
+                    </span>
+                    <span class="iconstyle horizontalmenu-hide">
+                        <i class="fas fa-check-circle"></i>
+                    </span>
+                    <span class="iconstyle horizontalmenu-hide">
+                        <i class="fas fa-ellipsis-v"></i>
+                    </span>
+                </div>
+
+                <div class="rightmenu">
+                    <div class="search horizontalmenu-hide">
+                        <div>
+                            <input type="search" class="searchbar" placeholder="Search...">
+                        </div>
+                        <div>
+                            <a href=""><span class="fas fa-search searchbutton"></span></a>
+                        </div>
+                    </div>
+                    <img src="/profile.png" class="profilepic">
+                    <p class="username">Steve</p>
+                    <span class="downarrow">
+                        <i class="fas fa-chevron-down"></i>
+                    </span>
+                </div>
+
+            </div>
+            <section class="actual-content">
+
+                <div class="container-fluid top-dashboard">
+                    <div class="row navbar bg-light">
+
+                        <div class=""> <b>DASHBOARD</b> </div>
+                        <div class="justify-content-end">
+                            <button class="btn btn-light disabled">Dashboard</button>
+                            <button class="btn btn-danger">Upgrade to Pro</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="container-fluid">
+
+                    <!-- <div class="hamburger">
+                        <button class="navbar-toggler" data-toggle="collapse" data-target="#expandme">
+                            <span><i class="fas fa-bars"></i></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="expandme">
+                            <div class="navbar-nav">
+                                <a href="#" class="nav-item nav-link ham-anchor hambur-element">Home</a>
+                                <a href="#" class="nav-item nav-link ham-anchor hambur-element">About</a>
+                                <a href="#" class="nav-item nav-link ham-anchor hambur-element">Contact</a>
+                                <a href="#" class="nav-item nav-link ham-anchor hambur-element">City</a>
+                            </div>
+                        </div>
+                    </div> -->
+
+                    <div class="row mt-3 mb-3">
+
+                        <div class="col-lg-3 col-md-6 col-sm-6 mt-3 mb-xl-0">
+                            <div class="card rounded-0">
+                                <div class="card-body topcards">
+                                    <div class="card-title">
+                                        <b>TOTAL VISIT</b>
+                                    </div>
+                                    <div class="card-bottom d-flex flex-row justify-content-between align-items-center">
+                                        <img src="/images/greengraph.png" alt="" class="cardimage">
+                                        <p class="text-success">659</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6 col-sm-6 mt-3 mb-xl-0">
+                            <div class="card rounded-0">
+                                <div class="card-body topcards">
+                                    <div class="card-title">
+                                        <b>TOTAL PAGE VIEWS</b>
+                                    </div>
+                                    <div class="card-bottom d-flex flex-row justify-content-between align-items-center">
+                                        <img src="/images/greengraph.png" alt="" class="cardimage">
+                                        <p class="text-primary">869</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6 col-sm-6 mt-3 mb-xl-0">
+                            <div class="card rounded-0">
+                                <div class="card-body topcards">
+                                    <div class="card-title">
+                                        <b>UNIQUE VISITOR</b>
+                                    </div>
+                                    <div class="card-bottom d-flex flex-row justify-content-between align-items-center">
+                                        <img src="/images/greengraph.png" alt="" class="cardimage">
+                                        <p class="text-secondary text-center">911</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6 col-sm-6 mt-3 mb-xl-0">
+                            <div class="card rounded-0">
+                                <div class="card-body topcards">
+                                    <div class="card-title">
+                                        <b>FREQUENT VISITOR</b>
+                                    </div>
+                                    <div class="card-bottom d-flex flex-row justify-content-between align-items-center">
+                                        <img src="/images/greengraph.png" alt="" class="cardimage">
+                                        <p class="text-danger text-center">999</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <div class="container-fluid d-flex flex-column mb-3">
+                    <div class="row">
+                        <div class="col-12">
+                            <div class="card">
+                                <div class="card-body">
+                                    <div class="card-title">
+                                        <b>PRODUCTS YEARLY SALES</b>
+                                    </div>
+                                    <div class="d-flex justify-content-end">
+                                        <div class="form-check">
+                                            <input type="radio" name="" id="">
+                                            <label class="form-check-label">Mac</label>
+                                        </div>
+                                        <div class="form-check">
+                                            <input type="radio" name="" id="">
+                                            <label class="form-check-label">Windows</label>
+                                        </div>
+
+                                    </div>
+                                    <div class="">
+                                        <img src="/images/graph.png" alt="" class="graphimage">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="container-fluid mb-3">
+                    <div class="row">
+                        <div class="col-lg-6 col-md-12">
+                            <div class="lowersection">
+                                <table class="table">
+                                    <tr class="rowhover">
+                                        <th class="table-element tablefont">#</th>
+                                        <th class="table-element tablefont">Name</th>
+                                        <th class="table-element tablefont">Progress</th>
+                                        <th class="table-element tablefont">Amount</th>
+                                        <th class="table-element tablefont">Deadline</th>
+                                    </tr>
+                                    <tr class="rowhover">
+                                        <td class="table-element tablefont">1</td>
+                                        <td class="table-element-left tablefont">Herman</td>
+                                        <td class="progressbar">
+                                            <div class="leftprog">
+                                            </div>
+                                            <div class="rightprog">
+                                            </div>
+                                        </td>
+                                        <td class="table-element tablefont">$77.99</td>
+                                        <td class="table-element tablefont">May 15</td>
+                                    </tr>
+                                    <tr class="rowhover">
+                                        <td class="table-element tablefont">2</td>
+                                        <td class="table-element-left tablefont">Messy</td>
+                                        <td class="progressbar">
+                                            <div class="leftprog1">
+                                            </div>
+                                            <div class="rightprog1">
+                                            </div>
+                                        </td>
+                                        <td class="table-element tablefont">$245.30</td>
+                                        <td class="table-element tablefont">July 1</td>
+                                    </tr>
+                                    <tr class="rowhover">
+                                        <td class="table-element tablefont">3</td>
+                                        <td class="table-element-left tablefont">John</td>
+                                        <td class="progressbar">
+                                            <div class="leftprog">
+                                            </div>
+                                            <div class="rightprog">
+                                            </div>
+                                        </td>
+                                        <td class="table-element tablefont">$138.00</td>
+                                        <td class="table-element tablefont">April 12</td>
+                                    </tr>
+                                    <tr class="rowhover">
+                                        <td class="table-element tablefont">4</td>
+                                        <td class="table-element-left tablefont">Peter</td>
+                                        <td class="progressbar">
+                                            <div class="leftprog1">
+                                            </div>
+                                            <div class="rightprog1">
+                                            </div>
+                                        </td>
+                                        <td class="table-element tablefont">$99.99</td>
+                                        <td class="table-element tablefont">May 15</td>
+                                    </tr>
+                                    <tr class="rowhover">
+                                        <td class="table-element tablefont">5</td>
+                                        <td class="table-element-left tablefont">Edward</td>
+                                        <td class="progressbar">
+                                            <div class="leftprog">
+                                            </div>
+                                            <div class="rightprog">
+                                            </div>
+                                        </td>
+                                        <td class="table-element tablefont">$160.22</td>
+                                        <td class="table-element tablefont">May 03</td>
+                                    </tr>
+                                </table>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-md-12">
+                            <img src="/images/projection.png" alt="" class="image-beside-table">
+                        </div>
+                    </div>
+                </div>
+
+
+
+            </section>
+        </div>
+
+    </section>
+
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>

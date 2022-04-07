@@ -54,17 +54,14 @@
     padding: 40px 0px 15px 6px;
     width: 394px;
     height: 45px;
-    /* background-color:yellow; */
 }
 .login2part22{
     width: 400px;
     height: 300px;
-    /* background-color:springgreen; */
 }
 .login2part23{
     width: 400px;
     height: 100px;
-    /* background-color: turquoise; */
 }
 .login2part24{
     width:114px;
@@ -111,8 +108,6 @@
 .login2parta{
     width: 400px;
     height: 75px;
-    display: ;
-    /* background-color: aqua; */
 }
 .login2username{
     margin: 45px 0px 0px 0px;
@@ -130,7 +125,6 @@
     width: 400px;
     height: 75px;
     display: inline-block;
-    /* background-color:palegreen; */
 }
 .login2password{
     margin: 25px 0px 0px 0px;
@@ -140,12 +134,10 @@
 .login2partc{
     width:400px;
     height: 75px;
-    /* background-color:peachpuff; */
 }
 .login2partd{
     width: 400px;
     height: 75px;
-    /* background-color:chartreuse; */
 }
 .login2remember{
     margin: 5px 0px 0px 6px;

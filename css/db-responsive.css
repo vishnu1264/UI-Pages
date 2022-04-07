@@ -1,0 +1,91 @@
+/* @media screen and (min-width:480px & max-width: 768px) {
+    .sidebar {
+        display: none;
+    }
+    .horizontalmenu {
+        display: none;
+    }
+    .page-content {
+        width: 100%;
+    }
+    .top-dashboard{
+        display: none;
+    }
+    .hamburger{
+        display:block;
+    }
+} */
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .sidebar{
+        height: 100%;
+        /* display: none; */
+        /* position: absolute; */
+    }
+    .sidebar-hide{
+        display: none;
+    }
+    .page-content{
+        width: 100%;
+    }
+    .horizontalmenu-hide{
+        display: none;
+    }
+    .top-dashboard{
+        /* display: none; */
+    }
+    .hambur-expand{
+        position: absolute;
+        width: 80%;
+        top: 50px;
+        left: 0px;
+        z-index: 1;
+    }
+    .expand-row{
+        background-color: #d3d3d3;
+    }
+
+    /* <div class="hamburger">
+        <button class="navbar-toggler" data-toggle="collapse" data-target="#expandme">
+            <span><i class="fas fa-bars"></i></span>
+        </button>
+        <div class="collapse navbar-collapse" id="expandme">
+        </div>
+    </div> */
+
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 360px) {
+    .horizontalmenu-hide{
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 600px) {
+    .horizontalmenu-hide{
+        display: none;
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    .horizontalmenu-image{
+        display: none;
+    }
+    .horizontalmenu-hide{
+        display: inherit;
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+
+}
